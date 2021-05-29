@@ -66,7 +66,6 @@ int main()
 }
 
 //1.4
-
 #include<iostream> 
 using namespace std;
 int main()
@@ -115,6 +114,7 @@ int main()
 
 	cout << "Гипотенуза равна = " << sqrt((first*first)+(second*second))  << endl;
 }
+
 //1.8
 #include<iostream> 
 #include<cmath>
@@ -133,6 +133,7 @@ int main()
 
 	cout << "Каждому школьнику достанется по "<< apple/pupils<< endl<<"яблоку"<<endl;
 }
+
 //1.9
 {#include<iostream> 
 #include<cmath>
