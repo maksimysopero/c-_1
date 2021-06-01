@@ -7,7 +7,7 @@ int main()
     return 0;
 } // не полностью выполеяет условие, так как не знаю как ее сделать
 
-/2.2
+//2.2
 #include<iostream> 
 #include<cmath>
 using namespace std;
@@ -25,6 +25,7 @@ int main()
 
     cout << "Гипотенуза равна  " << sqrt((a * a) + (b * b)) << endl;
 }
+
 //2.3 
 #include<iostream> 
 using namespace std;
@@ -43,6 +44,7 @@ int main()
 	c = x;
 	cout <<"Произведение цифр = "<<a * b * c << " " <<"Сумма цифр = "<< a + b + c<<endl;
 }
+
 // 2.4
 #include <iostream>
 using namespace std;
@@ -69,6 +71,7 @@ int main()
 	swap(a, b);
 	cout << a << endl << b << endl;
 }
+
 //2.7
 #include<iostream> 
 using namespace std;
@@ -90,8 +93,8 @@ int main()
 
 	cout << a * b + c * d << endl;
 }
-//2.9.1
 
+//2.9.1
 #include<iostream> 
 using namespace std;
 
@@ -111,7 +114,6 @@ int main()
 }
 
 // 2.9.2
-
 #include<iostream> 
 using namespace std;
 
@@ -131,6 +133,7 @@ int main()
 
 	cout << "triangle perimitre = " << a + b + c << endl;
 }
+
 //2.9.3
 #include<iostream> 
 using namespace std;
@@ -153,6 +156,7 @@ int main()
 
 	cout <<"Perimeter of the quadrilateral = " <<a+b+c+d<< endl;
 }
+
 //2.10
 #include<iostream> 
 #include<cmath>
@@ -167,6 +171,7 @@ int main()
 	cin >> R;
 	cout << "Площадь поверхности шара = " <<4*p*R*R<<endl<<"Объём шара = "<<(4*p*R*R*R)/3 << endl;
 }
+
 //2.11
 #include<iostream> 
 #include<cmath>
@@ -224,6 +229,7 @@ int main()
 
 	cout << "Объём конуса равен " <<(p*r*r*h)/3<<endl<<"Площадь поверхности конуса равна "<<(p*r)*(l+r);
 }
+
 //2.14
 #include<iostream> 
 #include<cmath>
@@ -246,6 +252,7 @@ int main()
     cout<<"Площадь поверхности пирамиды равна "<<l<<endl;
     
 }
+
 //2.15
 #include<iostream> // Объём правильной шестиугольной пирамиды
 #include<cmath>
