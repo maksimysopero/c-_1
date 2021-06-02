@@ -335,7 +335,7 @@ int main()
 
 	cout << "Сумма равна " << amount << endl<< "Произведение равно " << composition << endl;
 	
-}]
+}
 
 //4.15
 
